@@ -1,0 +1,7 @@
+#!/bin/bash/env bash
+
+# Compile the Java src folder
+javac src/*.java
+
+#execute the java command
+java -cp src mySNS "${@:OPTIND}"
